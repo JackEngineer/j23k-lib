@@ -5,8 +5,14 @@
     "description": "Jack's component library of react.",
     "author": "jack",
     "license": "MIT",
-    "keywords": ["React", "Component"],
-    "files": ["es", "docs-dist"],
+    "keywords": [
+        "React",
+        "Component"
+    ],
+    "files": [
+        "es",
+        "docs-dist"
+    ],
     "scripts": {
         "start": "dumi dev",
         "docs:build": "dumi build",
