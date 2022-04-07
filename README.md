@@ -1,6 +1,6 @@
 # j23k-lib
 
-This library is a business component library developed based on react + antd.
+🐏 This library is a business component library developed based on react + antd.
 
 English | [简体中文](./README-zh_CN.md)
 
@@ -66,7 +66,7 @@ export default () => (
 
 ## Related Efforts
 
-- [umi](https://github.com/noffle/art-of-readme) — 🍙 Plug-in enterprise-level front-end application framework.
+- [umi](https://github.com/noffle/art-of-readme) — 🌋 Pluggable enterprise-level react application framework.
 - [dumi](https://github.com/umijs/dumi) — 📖 Documentation tool for component development scenarios.
 - [ahooks](https://github.com/alibaba/hooks) — 🔧 A high-quality and reliable React Hooks library.
 - [react](https://github.com/noffle/art-of-readme) — 👖 JavaScript library for building user interfaces.

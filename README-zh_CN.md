@@ -1,6 +1,6 @@
 # j23k-lib
 
-本库是一个基于 react + antd 开发的的业务组件库。
+🐏 本库是一个基于 react + antd 开发的的业务组件库。
 
 简体中文 | [English](./README.md)
 
@@ -66,7 +66,7 @@ export default () => (
 
 ## 相关仓库
 
-- [umi](https://github.com/noffle/art-of-readme) — 🍙 插件化的企业级前端应用框架。
+- [umi](https://github.com/noffle/art-of-readme) — 🌋 插件化的企业级前端应用框架。
 - [dumi](https://github.com/umijs/dumi) — 📖 为组件开发场景而生的文档工具。
 - [ahooks](https://github.com/alibaba/hooks) — 🔧 一套高质量可靠的 React Hooks 库。
 - [react](https://github.com/noffle/art-of-readme) — 👖 用于构建用户界面的 JavaScript 库。
