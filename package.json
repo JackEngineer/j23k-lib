@@ -4,6 +4,9 @@
     "version": "1.0.5",
     "description": "Jack's component library of react.",
     "author": "jack",
+    "repository": {
+        "url": "https://github.com/JackEngineer/j23k-lib"
+    },
     "license": "MIT",
     "keywords": [
         "React",
