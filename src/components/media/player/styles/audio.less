@@ -4,33 +4,32 @@
     align-items: center;
 
     .controls-left {
-      width: 36px;
       flex: 0 0 auto;
+      width: 36px;
       margin-right: 20px;
 
       .play-pause {
         width: 36px;
         height: 36px;
         line-height: 36px;
+        background: #0d72d6;
+        border: #0d72d6;
         border-radius: 18px;
-        background: #0D72D6;
-        border: #0D72D6;
 
         .anticon {
           color: #ffffff;
           font-size: 20px;
         }
       }
-
     }
 
     .controls-right {
       flex: 1 1 auto;
 
       &-top {
-        color: #535353;
         display: flex;
         justify-content: space-between;
+        color: #535353;
       }
 
       &-bottom {
@@ -43,13 +42,13 @@
             position: absolute;
             top: 50%;
             left: 0;
-            transform: translate(-50%, -50%);
             width: 14px;
             height: 14px;
-            background: #0D72D6;
-            border-radius: 7px;
+            background: #0d72d6;
             border: 2px solid #ffffff;
+            border-radius: 7px;
             box-shadow: 0px 1px 4px rgba(14, 116, 214, 0.2);
+            transform: translate(-50%, -50%);
           }
 
           .controls-progress {
@@ -59,8 +58,8 @@
               .ant-progress-outer {
                 .ant-progress-inner {
                   .ant-progress-bg {
-                    transition: all .3s;
                     height: 10px !important;
+                    transition: all 0.3s;
                   }
                 }
               }

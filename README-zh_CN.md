@@ -50,9 +50,9 @@ $ npm i j23k-lib --save
 
 ## 示例
 
-```tsx
+```tsx | pure
 import React from 'react';
-import { Player } from 'dumi-test';
+import { Player } from 'j23k-lib';
 
 export default () => (
   <Player>

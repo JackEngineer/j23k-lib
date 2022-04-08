@@ -108,7 +108,7 @@ function Audio(props: AudioProps) {
       }
     }
   };
-  
+
   const waiting = () => {
     console.log('waiting');
   };
