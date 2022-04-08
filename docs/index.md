@@ -35,7 +35,7 @@ $ npm i j23k-lib --save
 
 ## Usage
 
-```ts
+```tsx | pure
 import React from 'react';
 import { Player } from 'j23k-lib';
 

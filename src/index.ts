@@ -1,1 +1,1 @@
-export { default as Player } from './components/Player';
+export { default as Player } from './components/media/player';

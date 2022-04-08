@@ -4,6 +4,7 @@
     "version": "1.0.5",
     "description": "Jack's component library of react.",
     "author": "jack",
+    "homepage": "https://jackengineer.github.io/j23k-lib/",
     "repository": {
         "url": "https://github.com/JackEngineer/j23k-lib"
     },
