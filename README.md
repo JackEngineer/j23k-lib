@@ -71,6 +71,7 @@ export default () => (
 - [ahooks](https://github.com/alibaba/hooks) — 🔧 A high-quality and reliable React Hooks library.
 - [react](https://github.com/noffle/art-of-readme) — 👖 JavaScript library for building user interfaces.
 - [antd](https://github.com/noffle/art-of-readme) — 💡 Enterprise-level product design system to create an efficient and pleasant work experience.
+- [moment.js](http://momentjs.cn/) — 🕐 JavaScript date processing library.
 
 ## Maintainers
 

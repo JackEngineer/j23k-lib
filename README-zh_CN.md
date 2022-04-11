@@ -71,6 +71,7 @@ export default () => (
 - [ahooks](https://github.com/alibaba/hooks) — 🔧 一套高质量可靠的 React Hooks 库。
 - [react](https://github.com/noffle/art-of-readme) — 👖 用于构建用户界面的 JavaScript 库。
 - [antd](https://github.com/noffle/art-of-readme) — 💡 企业级产品设计体系，创造高效愉悦的工作体验。
+- [moment.js](http://momentjs.cn/) — 🕐 JavaScript 日期处理类库。
 
 ## 维护者
 
