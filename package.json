@@ -1,7 +1,7 @@
 {
     "private": false,
     "name": "j23k-lib",
-    "version": "1.0.5",
+    "version": "1.0.7",
     "description": "Jack's component library of react.",
     "author": "jack",
     "homepage": "https://jackengineer.github.io/j23k-lib/",
