@@ -15,8 +15,8 @@ import { Player } from 'j23k-lib';
 
 export default () => (
   <Player.Audio
-    name="星球大战.mp3"
-    url="https://ia600702.us.archive.org/33/items/Classical_Sampler-9615/Kevin_MacLeod_-_Also_Sprach_Zarathustra.mp3"
+    name="枪林弹雨"
+    url="https://cdn2.ear0.com:3321/preview?soundid=20797&type=mp3"
   ></Player.Audio>
 );
 ```
