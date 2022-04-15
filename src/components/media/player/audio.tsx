@@ -1,15 +1,15 @@
-import moment from 'moment';
-import { Button, Progress, ProgressProps } from 'antd';
-import { useBoolean } from 'ahooks';
 import React, { useEffect, useRef, useState } from 'react';
+import moment from 'moment';
+import { useBoolean } from 'ahooks';
+import { MediaProps } from './interface';
+import momentDurationFormatSetup from 'moment-duration-format';
+import { Button, Progress, ProgressProps } from 'antd';
 import {
   CaretRightOutlined,
   PauseOutlined,
   ReloadOutlined,
   LoadingOutlined,
 } from '@ant-design/icons';
-import momentDurationFormatSetup from 'moment-duration-format';
-import { MediaProps } from './interface';
 import './styles/audio.less';
 
 momentDurationFormatSetup(moment as any);
@@ -98,14 +98,19 @@ function Audio(props: AudioProps) {
    * @param e
    */
   const seek = (e: any) => {
-    setIsCompleted(false);
-    setFalse();
-    const progress = progressRef?.current;
-    if (progress) {
-      const pos = (e.pageX - progress?.offsetLeft) / progress?.offsetWidth;
-      if (audioRef?.current) {
-        audioRef.current.currentTime = pos * audioRef.current.duration;
+    try {
+      setIsCompleted(false);
+      setFalse();
+      const progress = progressRef?.current;
+      if (progress) {
+        const pos = (e.pageX - progress?.offsetLeft) / progress?.offsetWidth;
+
+        if (audioRef?.current?.currentTime) {
+          audioRef.current.currentTime = pos * audioRef.current.duration;
+        }
       }
+    } catch (error) {
+      console.log(error);
     }
   };
 
